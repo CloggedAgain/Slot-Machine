@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    background: transparent;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.slot-machine {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    gap: 10px;
+}
+
+.slot {
+    width: 150px;
+    height: 300px;
+    overflow: hidden;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background: url('https://64.media.tumblr.com/47eed361ff4c8306f00e05a72126f0e0/346092e36f25ffa1-0b/s640x960/7ed3825f0438deb43646b925ee091396259f43d6.gifv') center/cover no-repeat;
+}
+
+.slot img {
+    width: 150px;
+    position: absolute;
+    transition: transform 0.5s ease-out;
+}
+
+.spin-btn {
+    margin-top: 10px;
+    padding: 12px 24px;
+    font-size: 20px;
+    font-family: 'Roboto Slab', serif;
+    text-transform: lowercase;
+    cursor: pointer;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
